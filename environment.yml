@@ -1,0 +1,5 @@
+name: gcc5
+dependencies:
+  - gmp
+  - mpfr
+  - mpc
