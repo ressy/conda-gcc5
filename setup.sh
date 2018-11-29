@@ -2,7 +2,7 @@
 set -Ee
 
 envname=${1:-gcc5}
-NJOBS=8
+NJOBS=${2:-8}
 GCC_VER="5.5.0"
 URL="https://ftp.gnu.org/gnu/gcc/gcc-${GCC_VER}/gcc-${GCC_VER}.tar.gz"
 
